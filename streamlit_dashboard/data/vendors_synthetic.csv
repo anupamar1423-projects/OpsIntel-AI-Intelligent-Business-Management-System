@@ -1,0 +1,37 @@
+vendor_name,category,unit_price,reliability,on_time_rate,quality_score
+Sample Supplier 01,Equipment,59509.84,58.4,74.9,69.6
+Sample Supplier 02,Software,4996.53,74.3,84.4,89.8
+Sample Supplier 03,Office supplies,10832.4,96.6,74.9,89.3
+Sample Supplier 04,Logistics,61296.42,95.0,82.9,72.1
+Sample Supplier 05,Equipment,45610.75,88.4,56.1,71.1
+Sample Supplier 06,Software,51438.0,81.2,82.3,69.4
+Sample Supplier 07,Office supplies,31874.02,98.4,89.3,74.5
+Sample Supplier 08,Logistics,49568.07,88.9,89.6,60.8
+Sample Supplier 09,Equipment,53220.21,71.3,82.2,77.2
+Sample Supplier 10,Software,33737.97,86.9,61.6,76.1
+Sample Supplier 11,Office supplies,15894.77,76.0,81.8,96.0
+Sample Supplier 12,Logistics,52299.05,98.4,68.4,62.8
+Sample Supplier 13,Equipment,10582.89,85.6,94.3,92.7
+Sample Supplier 14,Software,38876.97,81.7,68.9,99.0
+Sample Supplier 15,Office supplies,49532.36,76.1,75.5,95.9
+Sample Supplier 16,Logistics,4517.98,58.8,58.2,72.2
+Sample Supplier 17,Equipment,69497.23,68.3,77.6,74.3
+Sample Supplier 18,Software,57041.59,75.2,58.0,87.0
+Sample Supplier 19,Office supplies,26664.56,74.8,76.2,87.4
+Sample Supplier 20,Logistics,6508.14,91.5,79.1,64.5
+Sample Supplier 21,Equipment,44704.25,89.6,64.7,70.8
+Sample Supplier 22,Software,24571.07,58.2,84.3,83.5
+Sample Supplier 23,Office supplies,19251.68,60.0,79.8,83.7
+Sample Supplier 24,Logistics,4143.72,81.7,76.7,64.1
+Sample Supplier 25,Equipment,5064.99,91.9,83.5,95.9
+Sample Supplier 26,Software,45261.97,66.0,81.2,82.4
+Sample Supplier 27,Office supplies,66868.56,91.5,59.2,61.4
+Sample Supplier 28,Logistics,49954.54,65.9,71.8,66.2
+Sample Supplier 29,Equipment,60095.13,79.7,81.3,88.1
+Sample Supplier 30,Software,40361.59,92.9,72.1,76.4
+Sample Supplier 31,Office supplies,34172.02,75.1,92.2,95.4
+Sample Supplier 32,Logistics,24090.94,84.1,89.9,95.1
+Sample Supplier 33,Equipment,43513.47,88.0,89.5,94.5
+Sample Supplier 34,Software,48256.84,63.1,84.3,96.6
+Sample Supplier 35,Office supplies,5987.08,81.4,74.3,81.5
+Sample Supplier 36,Logistics,30975.75,80.6,77.7,92.9

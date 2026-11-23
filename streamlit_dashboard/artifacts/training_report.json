@@ -1,0 +1,53 @@
+{
+  "project": "OpsIntel AI",
+  "dataset_type": "deterministic synthetic demonstration data; not real company records",
+  "seed": 20261123,
+  "operations_dataset_sha256": "51d42875913943e190a3b101fe7f1f32f4acb28f53e74560741c194ba1dea7d4",
+  "finance_dataset_sha256": "c29ff75d1ca41557cbffea0b4df543836bbf51e8dacbc0fce4182a5338d188fe",
+  "operations_features": [
+    "duration_minutes",
+    "rows_processed",
+    "failed"
+  ],
+  "finance_features": [
+    "month_number",
+    "trend_index",
+    "budget_amount",
+    "lag_1",
+    "lag_2",
+    "lag_3",
+    "rolling_3",
+    "department"
+  ],
+  "operations_model": "StandardScaler + IsolationForest, trained on normal rows in the first 70%; threshold calibrated on the next 10%; final 20% held out",
+  "finance_model": "OneHotEncoder + StandardScaler + RandomForestRegressor, chronological holdout",
+  "evaluation": {
+    "operations": {
+      "roc_auc": 0.9807079977523881,
+      "precision": 0.608,
+      "recall": 1.0,
+      "f1": 0.7562189054726368,
+      "train_rows": 4200,
+      "normal_train_rows": 3957,
+      "validation_rows": 600,
+      "test_rows": 1200,
+      "test_anomaly_rate": 0.06333333333333334,
+      "calibrated_threshold": 0.025802391236508015
+    },
+    "finance": {
+      "mae": 10816.904787301939,
+      "rmse": 14172.912857816536,
+      "mape_percent": 5.403712887993463,
+      "train_rows": 225,
+      "test_rows": 60,
+      "test_start": "2025-01-01",
+      "test_end": "2025-12-01"
+    }
+  },
+  "limitations": [
+    "Synthetic data is for demonstration and cannot establish real business performance.",
+    "Anomaly scores require human review; false positives and false negatives are possible.",
+    "Forecasts are planning estimates, not accounting advice or guaranteed outcomes.",
+    "Vendor recommendation is a transparent weighted ranking, not a trained model."
+  ]
+}

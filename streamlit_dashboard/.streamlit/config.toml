@@ -1,0 +1,13 @@
+[theme]
+base = "dark"
+primaryColor = "#49D6B3"
+backgroundColor = "#0B1220"
+secondaryBackgroundColor = "#121D30"
+textColor = "#E8EEF7"
+font = "sans serif"
+baseRadius = "0.6rem"
+showWidgetBorder = true
+chartCategoricalColors = ["#49D6B3", "#6C8CFF", "#F3B95F", "#FF7188", "#B394FF"]
+
+[server]
+headless = true
